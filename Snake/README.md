@@ -1,4 +1,5 @@
 Snake game
+
 During the game, we play the role of a snake, we control it with the arrows. The snake moves left, right and forward 
 in a limited area and speed. Apples appear on the board, if we manage to eat them, we gain a point and increase the 
 size of our snake's tail. The aim of the game is to score as many points as possible. Running into a wall or a snake's 
