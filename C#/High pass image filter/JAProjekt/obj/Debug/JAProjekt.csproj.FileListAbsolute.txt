@@ -1,0 +1,10 @@
+D:\c#\projekt-assembler\JAProjekt\bin\Debug\JAProjekt.exe.config
+D:\c#\projekt-assembler\JAProjekt\bin\Debug\JAProjekt.exe
+D:\c#\projekt-assembler\JAProjekt\bin\Debug\JAProjekt.pdb
+D:\c#\projekt-assembler\JAProjekt\obj\Debug\JAProjekt.csproj.AssemblyReference.cache
+D:\c#\projekt-assembler\JAProjekt\obj\Debug\JAProjekt.Form1.resources
+D:\c#\projekt-assembler\JAProjekt\obj\Debug\JAProjekt.Properties.Resources.resources
+D:\c#\projekt-assembler\JAProjekt\obj\Debug\JAProjekt.csproj.GenerateResource.cache
+D:\c#\projekt-assembler\JAProjekt\obj\Debug\JAProjekt.csproj.CoreCompileInputs.cache
+D:\c#\projekt-assembler\JAProjekt\obj\Debug\JAProjekt.exe
+D:\c#\projekt-assembler\JAProjekt\obj\Debug\JAProjekt.pdb
