@@ -9,4 +9,4 @@ Add, Edit, Delete, Toggle, Show and Summary(division into completed tasks and un
 Event
 Add, Edit, Delete, Show and Summary(division into ongoing, incoming and ended events)
 
-In web version you can additionally, you can create task groups.
+In web version you can additionally create task groups.
