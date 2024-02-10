@@ -1,0 +1,3 @@
+LIBRARY JAASM
+EXPORTS count_asm
+
