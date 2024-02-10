@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        p {
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 250px;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    </head>
+    <body>
+        <body>
+    <h1>Event</h1>
+    <br>
+         <div style="text-align: center;">
+      
+        <p>Add event</p>
+            <form action="EventServlet">
+                <input style="width: 250px;" type="text" name="add_start_date" placeholder="start date(dd-MM-yyyy HH:mm)"/>
+                <input style="width: 250px;" type="text" name="add_end_date" placeholder="end date(dd-MM-yyyy HH:mm)"/>
+                <input type="text" name="add_name" placeholder="Add name"/>
+                <input type="text" name="add_description" placeholder="Add description"/>
+                <input type="submit" value="Add"/>   
+            </form>
+         <p>Edit event</p>
+                <form action="EventEditServlet">
+                <input type="text" name="edit_id" placeholder="Id to edit"/>    
+                <input style="width: 250px;" type="text" name="edit_start_date" placeholder="start date(dd-MM-yyyy HH:mm)"/>
+                <input style="width: 250px;" type="text" name="edit_end_date" placeholder="end date(dd-MM-yyyy HH:mm)"/>
+                <input type="text" name="edit_name" placeholder="Edit name"/>
+                <input type="text" name="edit_description" placeholder="Edit description"/>
+                <input type="submit" value="Edit"/>
+            </form>
+          <p>Delete event</p>
+                <form action="EventDeleteServlet">
+                <input type="text" name="delete_event" placeholder="Id to delete"/>
+                <input type="submit" value="Delete"/>
+            </form> 
+     
+        <p>Show event</p>
+          <form action="EventShowServlet">  
+                <input type="submit" value="Show"/>
+            </form> 
+        <p>Summary</p>
+          <form action="EventSummaryServlet">
+                <input type="submit" value="Summary"/>
+            </form> 
+        
+    </div>
+        
+        <form action="MenuView.html">
+            <input type="submit" value="Back to menu" />
+        </form>
+        
+        
+        
+        
+    </body>
+</html>

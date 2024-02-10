@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f4f4;
+                margin: 20px;
+            }
+
+            div {
+                text-align: center;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            p {
+                font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+            form {
+                margin-bottom: 20px;
+            }
+
+            input {
+                width: 250px;
+                padding: 10px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                padding: 12px 24px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h1 style="text-align: center;">Task</h1>
+            <p>Add task</p>
+            <form action="NewServlet">
+                <input type="text" name="add_description" placeholder="Add description"/>
+                <input type="submit" value="Add"/>
+            </form>
+
+            <p>Edit task</p>
+            <form action="TaskEditServlet">
+                <input type="text" name="edit_id" placeholder="Id to edit"/>
+                <input type="text" name="edit_description" placeholder="description"/>
+                <input type="submit" value="Edit"/>
+            </form>
+
+            <p>Delete task</p>
+            <form action="TaskDeleteServlet">
+                <input type="text" name="id_delete" placeholder="Id to edit"/>
+                <input type="submit" value="Delete"/>
+            </form>
+            <p>Toggle task</p>
+            <form action="TaskToggleServlet">
+                <input type="text" name="id_toggle" placeholder="Id to toggle"/>
+                <input type="submit" value="Toggle"/>
+            </form>
+
+            <p>Show tasks</p>
+            <form action="TaskShowServlet">
+                <input type="submit" value="Show"/>
+            </form>
+
+            <p>Summary</p>
+            <form action="TaskSummaryServlet">
+                <input type="submit" value="Summary"/>
+            </form>
+
+            <p>Add task group</p>
+            <form action="AddTaskGroupServlet" >
+                <input type="text" name="task_names" placeholder="Task names (comma-separated)" />
+                <input type="text" name="group_name" placeholder="Group name" />
+                <input type="submit" value="Add Task Group" />
+            </form>
+
+            <br>
+            <br>
+        </div>
+
+        <form action="MenuView.html">
+            <input type="submit" value="Back to menu"/>
+        </form>
+
+    </body>
+</html>
